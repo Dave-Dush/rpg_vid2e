@@ -8,4 +8,4 @@
 #SBATCH --mail-type=ALL
 #SBATCH --output=/storage/slurm/logs/dave/slurm-%j.out
 #SBATCH --error=/storage/slurm/logs/dave/slurm-%j.out
-srun python upsample.py --input_dir=../example/original --output_dir=../example/upsampled --device=cuda:0
+srun python upsample.py --input_dir=~/storage/local/dave/slowmo --output_dir=~/storage/local/dave/v2e/slowmo --device=cuda:0
